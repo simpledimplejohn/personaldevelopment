@@ -7,3 +7,6 @@ Each tutorial is contained in it's own branch.
 
 ### Branch List
 - Triangle Tracker
+
+### Documentation
+- Added setup instructions to the documentation folder
