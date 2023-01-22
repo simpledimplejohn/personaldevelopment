@@ -1,4 +1,4 @@
-# Basic Nodejs front end
+# Basic NPM front end
 I am writing this documentation for myself to get practice setting up a nodejs front end.  Something I can have in case I step away from this platform for a while.
 
 ## github setup
@@ -17,7 +17,7 @@ do this first
 Do this Second
 How to do a basic Node.js front end setup with all of the files
 
-## Setting up node.js
+## Setting up NPM
 - make sure you have homebrew installed and working `brew -v`
 - make sure you have npm installed `npm -v`
 - make sure you have nvm installed `node version manager` `nvm -v` check that you have the correct version of node.js
