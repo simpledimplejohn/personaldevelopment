@@ -17,6 +17,9 @@ do this first
 Do this Second
 How to do a basic Node.js front end setup with all of the files
 
+## Make the file structure
+
+
 ## Setting up NPM
 - make sure you have homebrew installed and working `brew -v`
 - make sure you have npm installed `npm -v`
@@ -36,6 +39,8 @@ Do this third??
     coverage/
     .env
     ```
+
+
 ## Launching first basic page with a server 
 `npm install -g http-server`
 `http-server`
