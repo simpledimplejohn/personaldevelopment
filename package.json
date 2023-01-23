@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/simpledimplejohn/personaldevelopment/issues"
   },
-  "homepage": "https://github.com/simpledimplejohn/personaldevelopment#readme"
+  "homepage": "https://github.com/simpledimplejohn/personaldevelopment#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }
