@@ -1,3 +1,7 @@
+import 'bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './css/styles.css';
+
 function handleTriangleForm() {
     event.preventDefault();
     document.querySelector('#response').innerText = null;
