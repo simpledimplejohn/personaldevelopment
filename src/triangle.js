@@ -11,11 +11,8 @@ export default function Triangle(side1, side2, side3, height) {
     & (this.side1 == this.side3)
     & (this.side2 == this.side3))
     ? "isosceles" : "not isosceles";
-  this.isScalene = ((this.side1 > (this.side2 + this.side3)) 
-  || (this.side2 > (this.side1 + this.side3)) 
-  || (this.side3 > (this.side1 + this.side2)) 
-  & (this.side1 != this.side2)
+  this.isScalene = ((this.side1 != this.side2)
   & (this.side1 != this.side3)
   & (this.side2 != this.side3))
-  ? "not scalene" : "scalene";
+  ? "scalene" : "not scalene";
 }
