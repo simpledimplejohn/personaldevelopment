@@ -25,6 +25,15 @@ describe('Triangle', () => {
 });
 
 describe('Triangle', () => {
+  test('testing isTriangle with a good triangle', () => {
+    const notTriangle = new Triangle(3,4,5);
+    expect(notTriangle.isTriangle).toEqual("this is a triangle");
+
+  }); 
+});
+
+
+describe('Triangle', () => {
   test('testing the function isEquilateral', () => {
     const equilateralTriangle = new Triangle(3,3,3);
     expect(equilateralTriangle.isEquilateral).toEqual("equilateral");
