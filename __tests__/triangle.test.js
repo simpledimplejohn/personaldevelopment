@@ -9,3 +9,11 @@ describe('Triangle', () => {
     expect(triangle.side3).toEqual(5);
   });
 });
+
+describe('Triangle', () => {
+  test('testing isTriangle function in constructor', () => {
+    const triangle = new Triangle(3,9,22);
+    expect(triangle.isTriangle).toEqual("not a triangle");
+
+  }); 
+});
