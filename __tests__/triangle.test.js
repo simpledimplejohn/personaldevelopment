@@ -67,3 +67,10 @@ describe('triangle', () => {
     expect(newTriangle.isIsosceles).toEqual("is isosceles");
   });
 });
+
+describe('triangle', () => {
+  test('testing isIsosceles triangle for non isosceles', () => {
+    const newTriangle = new Triangle(1,2,3);
+    expect(newTriangle.isIsosceles).toEqual("is not isosceles");
+  });
+});
