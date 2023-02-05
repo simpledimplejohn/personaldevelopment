@@ -16,12 +16,12 @@ function Triangle(side1, side2, side3, height) {
     & (this.side2 !== this.side3))
     ? "scalene" : "not scalene";
     this.isIsosceles = (
-      ((this.side1 === this.side2) & (this.side1 === this.side3))
-    || ((this.side1 === this.side2) & (this.side2 === this.side3))
-    || (())
+      (this.side1 === this.side2)  
+    || (this.side2 === this.side3)
+    || (this.side1 === this.side3)
     ) ? "is isosceles" : "is not isosceles";
 }
-const notTriangle = new Triangle(1,1,10);
+const notTriangle = new Triangle(1,2,10);
 const equilateral = new Triangle(3,3,3);
 const isosceles = new Triangle(3,3,5);
 const scalene = new Triangle(1,2,3);
