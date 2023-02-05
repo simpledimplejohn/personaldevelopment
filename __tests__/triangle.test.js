@@ -1,5 +1,11 @@
 import Triangle from './../src/triangle.js';
 
+/*
+Need the following:
+is a triangle and is not a triangle 
+*/
+
+
 describe('Triangle', () => {
 
   test('should correctly create a triangle object with three lengths', () => {
