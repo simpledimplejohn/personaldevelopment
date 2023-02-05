@@ -28,6 +28,6 @@ describe('Triangle', () => {
 describe('triangle', () => {
   test('testing isIsosceles for not an isosceles', () => {
     const notIsoscelesTriangle = new Triangle(1,2,3);
-    expect(notIsoscelesTriangle.isIsosceles).toEqual("not isosceless");
+    expect(notIsoscelesTriangle.isIsosceles).toEqual("not isosceles");
   });
 });
