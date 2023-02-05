@@ -53,3 +53,10 @@ describe('triangle', () => {
     expect(notIsoscelesTriangle.isScalene).toEqual("scalene");
   });
 });
+
+describe('triangle', () => {
+  test('testing isScalene triangle works', () => {
+    const notIsoscelesTriangle = new Triangle(2,2,3);
+    expect(notIsoscelesTriangle.isScalene).toEqual("not scalene");
+  });
+});
