@@ -21,5 +21,10 @@ function Triangle(side1, side2, side3, height) {
     ? "is isosceles" : "is not isosceles";
 }
 
+const notTriangle = new Triangle(1,1,10);
+const equilateral = new Triangle(3,3,3);
+const isosceles = new Triangle(3,3,5);
+const scalene = new Triangle(1,2,3);
 
-console.log("hello world");
+
+console.log("testing isTriangle, answer: <", notTriangle.isTriangle, ">");
