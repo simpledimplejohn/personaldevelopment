@@ -35,6 +35,6 @@ describe('triangle', () => {
 describe('triangle', () => {
   test('testing isScalene triangle works', () => {
     const notIsoscelesTriangle = new Triangle(1,2,3);
-    expect(notIsoscelesTriangle.isScalene).toEqual("not scalene");
+    expect(notIsoscelesTriangle.isScalene).toEqual("scalene");
   });
 });
