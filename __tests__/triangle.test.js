@@ -12,8 +12,15 @@ describe('Triangle', () => {
 
 describe('Triangle', () => {
   test('testing isTriangle function in constructor', () => {
-    const triangle = new Triangle(3,9,22);
-    expect(triangle.isTriangle).toEqual("not a triangle");
+    const notTriangle = new Triangle(3,9,22);
+    expect(notTriangle.isTriangle).toEqual("not a triangle");
 
   }); 
 });
+
+describe('Triangle', () => {
+  test('testing the function isIsosceles', () => {
+    const isoscelesTriangle = new Triangle(3,3,3);
+    expect(isoscelesTriangle.isIsosceles).toEqual("isosceles");
+  })
+})
