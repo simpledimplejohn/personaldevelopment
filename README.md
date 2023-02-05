@@ -1,12 +1,16 @@
-# Personal Development Repository
+# TRIANGLE TRACKER 
 
-A place to document my personal work on coding project practice.
+## Tutorial is here:
+https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/basic-project-structure
 
-## How it works
-Each tutorial is contained in it's own branch.  
+- Sunday Jan 22nd did up to webpack
+
+- Jest installed now at this point:
+https://www.learnhowtoprogram.com/intermediate-javascript/test-driven-development-and-environments-with-javascript/setting-up-jest
+
+- will try NOT installing webpack....
+- will try NOT installing babble... and see if it works
+
 
 ### Branch List
 - Triangle Tracker
-
-### Documentation
-- Added setup instructions to the documentation folder

@@ -1,30 +1,10 @@
-# Basic Nodejs front end
+# Basic NPM front end
 I am writing this documentation for myself to get practice setting up a nodejs front end.  Something I can have in case I step away from this platform for a while.
 
-## github setup
-do this first
-
-`echo "# SevenDeadlySinsVanilla" >> README.md`
-`git init`
-`git add README.md`
-`git commit -m "first commit"`
-`git branch -M main`
-`git remote add origin git@github.com:simpledimplejohn/SevenDeadlySinsVanilla.git`
-`git push -u origin main`
-
-
-# Node.js Setup
-Do this Second
-How to do a basic Node.js front end setup with all of the files
-
-## Setting up node.js
-- make sure you have homebrew installed and working `brew -v`
-- make sure you have npm installed `npm -v`
-- make sure you have nvm installed `node version manager` `nvm -v` check that you have the correct version of node.js
-- Navigate to the folder you want to install this in
-    - run `npm init`
-    - once you have your basic files run
-    - run `npm install`
+## Make the file structure
+index.html
+/src
+/css
 
 ## Setup the git repo
 Do this third?? 
@@ -36,6 +16,16 @@ Do this third??
     coverage/
     .env
     ```
+
+## Setup 
+Check your node version `node -v`
+Check your npm version  `npm -v`
+start project `npm init -y` add's package.json
+`npm install` add's package-lock.json (contains all the dependencies)
+
+
+
+
 ## Launching first basic page with a server 
 `npm install -g http-server`
 `http-server`
