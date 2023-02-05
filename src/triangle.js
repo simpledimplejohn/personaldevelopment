@@ -7,10 +7,10 @@ export default function Triangle(side1, side2, side3, height) {
     || (this.side3 > (this.side1 + this.side2))) 
     ? "not a triangle" : "this is a triangle"; 
     // ternary operator means: condition ? true : fail
-  this.isIsosceles = ((this.side1 == this.side2) 
+  this.isEquilateral  = ((this.side1 == this.side2) 
     & (this.side1 == this.side3)
     & (this.side2 == this.side3))
-    ? "isosceles" : "not isosceles";
+    ? "equilateral" : "not equilateral";
   this.isScalene = ((this.side1 != this.side2)
   & (this.side1 != this.side3)
   & (this.side2 != this.side3))

@@ -19,16 +19,16 @@ describe('Triangle', () => {
 });
 
 describe('Triangle', () => {
-  test('testing the function isIsosceles', () => {
-    const isoscelesTriangle = new Triangle(3,3,3);
-    expect(isoscelesTriangle.isIsosceles).toEqual("isosceles");
+  test('testing the function isEquilateral', () => {
+    const equilateralTriangle = new Triangle(3,3,3);
+    expect(equilateralTriangle.isEquilateral).toEqual("equilateral");
   })
 })
 
 describe('triangle', () => {
-  test('testing isIsosceles for not an isosceles', () => {
-    const notIsoscelesTriangle = new Triangle(1,2,3);
-    expect(notIsoscelesTriangle.isIsosceles).toEqual("not isosceles");
+  test('testing isEquilateral for not an Equilateral', () => {
+    const notEquilateralTriangle = new Triangle(1,2,3);
+    expect(notEquilateralTriangle.isEquilateral).toEqual("not equilateral");
   });
 });
 
