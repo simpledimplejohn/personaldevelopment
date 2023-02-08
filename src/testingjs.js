@@ -1,3 +1,8 @@
+/*
+this file shows how to do a simple object without a class 
+and uses ternary operators 
+*/
+
 function Triangle(side1, side2, side3) {
     this.side1 = side1;
     this.side2 = side2;
