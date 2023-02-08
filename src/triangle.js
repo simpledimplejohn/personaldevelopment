@@ -37,15 +37,20 @@ export default class Triangle {
     return "not scalene"
   }
   }
+  isIsosceles() {
+    if ((this.side1 === this.side2) ||
+    (this.side2 === this.side3) ||
+    (this.side1 === this.side3)) 
+    {
+      return "is isosceles"
+    } else {
+      return "is not isosceles"
+    }
+  }
 }
 
 
   /*
-this.isScalene = (
-  (this.side1 != this.side2)
-  & (this.side1 !== this.side3)
-  & (this.side2 !== this.side3))
-  ? "scalene" : "not scalene";
 this.isIsosceles = (
   (this.side1 === this.side2)  
   || (this.side2 === this.side3)
