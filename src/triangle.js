@@ -20,10 +20,13 @@ export default class Triangle {
     }  
   }
   isEquilateral() {
-      ((this.side1 == this.side2) 
+    if  ((this.side1 == this.side2) 
     & (this.side1 === this.side3)
-    & (this.side2 === this.side3))
-    ? "equilateral" : "not equilateral";
+    & (this.side2 === this.side3)
+    ) { return "equilateral" 
+  } else { 
+      return "not equilateral"
+  }
   }
 }
 
@@ -49,5 +52,5 @@ this.isIsosceles = (
   || (this.side2 === this.side3)
   || (this.side1 === this.side3)
   ) ? "is isosceles" : "is not isosceles";
-}
+
 */
