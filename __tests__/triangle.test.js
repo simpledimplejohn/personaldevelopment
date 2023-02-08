@@ -19,7 +19,7 @@ describe('Triangle', () => {
 describe('Triangle', () => {
   test('testing isTriangle function in constructor', () => {
     const newTriangle = new Triangle(3,9,22);
-    expect(newTriangle.isTriangle).toEqual("not a triangle");
+    expect(newTriangle.isTriangle()).toEqual("not a triangle");
 
   }); 
 });

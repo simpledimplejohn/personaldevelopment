@@ -17,7 +17,10 @@
     `git merge oldBranch`
     `git push origin main`
 
-
+- Rolling back to a pervious commit
+    `git log` get the id of the commit to roll back to
+    `git reset hard <id>`
+    `git push origin <branch> -f`
 
 
 # GIT COMMANDS BACKUP 
