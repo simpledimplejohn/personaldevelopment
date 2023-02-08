@@ -15,9 +15,15 @@ export default class Triangle {
     (this.side2 > (this.side1 + this.side3)) || 
     (this.side3 > (this.side1 + this.side2))
     ) {return  "not a triangle"
-  } else {
-    return "this is a triangle"
-  }  
+    } else {
+      return "this is a triangle"
+    }  
+  }
+  isEquilateral() {
+      ((this.side1 == this.side2) 
+    & (this.side1 === this.side3)
+    & (this.side2 === this.side3))
+    ? "equilateral" : "not equilateral";
   }
 }
 
