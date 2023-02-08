@@ -28,20 +28,19 @@ export default class Triangle {
       return "not equilateral"
   }
   }
+  isScalene() {
+    if ((this.side1 !== this.side2) &
+    (this.side1 !== this.side3) &
+    (this.side2 !== this.side3))
+    { return "scalene"
+  } else {
+    return "not scalene"
+  }
+  }
 }
 
 
-
-
-
-
-
   /*
-this.isEquilateral  = (
-    (this.side1 == this.side2) 
-  & (this.side1 === this.side3)
-  & (this.side2 === this.side3))
-  ? "equilateral" : "not equilateral";
 this.isScalene = (
   (this.side1 != this.side2)
   & (this.side1 !== this.side3)

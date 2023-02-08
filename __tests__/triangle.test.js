@@ -50,27 +50,27 @@ describe('triangle', () => {
 describe('triangle', () => {
   test('testing isScalene triangle works', () => {
     const newTriangle = new Triangle(1,2,3);
-    expect(newTriangle.isScalene).toEqual("scalene");
+    expect(newTriangle.isScalene()).toEqual("scalene");
   });
 });
 
 describe('triangle', () => {
   test('testing isScalene triangle works', () => {
     const newTriangle = new Triangle(2,2,3);
-    expect(newTriangle.isScalene).toEqual("not scalene");
+    expect(newTriangle.isScalene()).toEqual("not scalene");
   });
 });
 
 describe('triangle', () => {
   test('testing isIsosceles triangle works', () => {
     const newTriangle = new Triangle(2,2,3);
-    expect(newTriangle.isIsosceles).toEqual("is isosceles");
+    expect(newTriangle.isIsosceles()).toEqual("is isosceles");
   });
 });
 
 describe('triangle', () => {
   test('testing isIsosceles triangle for non isosceles', () => {
     const newTriangle = new Triangle(1,2,3);
-    expect(newTriangle.isIsosceles).toEqual("is not isosceles");
+    expect(newTriangle.isIsosceles()).toEqual("is not isosceles");
   });
 });
